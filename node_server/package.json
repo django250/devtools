@@ -4,14 +4,16 @@
   "description": "Devtools node server skelet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mocha": "^6.0.2"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.11.0"
   }
 }
