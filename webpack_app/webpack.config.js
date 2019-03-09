@@ -13,6 +13,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader",
+        options: {
+          // eslint options (if necessary)
+        }
+      },
+      {
         // Is het een .css file?
         test: /\.css$/,
         // Gebruik deze loaders
